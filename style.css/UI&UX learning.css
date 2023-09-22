@@ -1,0 +1,21 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.basic1{
+	margin: 15px; 
+}
+
+.hd{
+	background-color: black;
+	color: #fff;
+}
+.Here1{
+	margin-bottom: 15px;
+}
+.con5{
+	background-color: #fff;
+	padding: 30px;
+	border: 1px solid #ccc;
+}

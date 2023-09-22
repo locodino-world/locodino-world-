@@ -1,0 +1,298 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body{
+
+	background-image: url(background.jpeg);
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	padding-top: 60px;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	
+}
+.menu-bar
+{
+	background: rgb(0,100,0);
+	text-align: center;
+	flex: 1;
+
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+	flex: 1;
+}
+.menu-bar ul li
+{
+	width: px;
+	margin: 15px;
+	padding: 15px;
+	 
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background: #2bab0d;
+	border: 3px;
+}
+.menu-bar-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .menu-bar-1
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .menu-bar-1 ul
+{
+	display: block;
+	margin: 10px;
+} 
+.menu-bar ul li:hover .menu-bar-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0; 
+	text-align: left;
+}
+.menu-bar ul li:hover .menu-bar-1 ul li:last-child
+{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .menu-bar-1 ul li a:hover
+{
+	color: #b2ff00;
+}
+
+
+
+
+
+.menu-bar-2
+{
+	display: none;
+}
+.menu-bar ul li:hover .menu-bar-2
+{
+	display: block;
+	position: absolute;
+	background: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .menu-bar-2 ul
+{
+	display: block;
+	margin: 10px;
+} 
+.menu-bar ul li:hover .menu-bar-2 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0; 
+	text-align: left;
+}
+.menu-bar ul li:hover .menu-bar-2 ul li:last-child
+{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .menu-bar-2 ul li a:hover
+{
+	color: #b2ff00;
+}
+.world
+{
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	display: inline-flex;
+
+}
+
+	@keyframes slideInleft {
+		from {
+			transform: translateX(-300px);
+		}
+
+		to {
+			transform: translateX(0);
+		}
+	}
+
+
+	.world {
+		animation-name: slideInleft;
+		animation-duration: 1s;
+		animation-timing-function: ease-in;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: none;
+		padding-top: 30px;
+	}
+	.container-1 {
+		animation-name: slideInleft;
+		animation-duration: 2s;
+		animation-timing-function: ease-in;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: none;
+	}
+	.container-2 {
+		animation-name: slideInleft;
+		animation-duration: 2s;
+		animation-timing-function: ease-in;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: none;
+	}
+	.container-3 {
+		animation-name: slideInleft;
+		animation-duration: 1s;
+		animation-timing-function: ease-in;
+		animation-delay: 1s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: none;
+	}
+
+.container-1{
+	width:80%;
+	margin:auto;
+}  
+.box-1{
+	background-color:#666;
+	color:#fff;
+
+	border-right:5px gray solid;
+	border-left:5px gray solid;
+	border-top:5px gray solid;
+	border-bottom:5px gray solid;
+	border-width:3px;
+	border-bottom-width:10px;
+	border-top-style:dotted;
+	
+	
+
+	border: 5px gray solid;
+
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right: :20px;
+	padding-left:20px;
+
+	/* Same as above */
+	padding:20px;
+
+	margin-top:20px;
+	margin:20px 0;
+}
+
+.box-1 h1{
+	font-family:tahoma;
+	font-weight:800;
+	font-style:italic;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em; 
+
+}
+.click{
+	color: red;
+}
+.container-2{
+	width:80%;
+	margin:auto;
+}
+.box-2{
+	border:3px dotted #ccc;
+	padding:20px;
+	margin:20px 0;
+	font-weight: 400;
+	background-color:#fff;
+	word-spacing: 0.3em;
+}
+.box-2 h2{
+	font-family: tahoma;
+	font-weight:800;
+	font-style:italic;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em; 
+
+}
+.container-3{
+	width:80%;
+	margin:auto;
+}  
+.box-3{
+	background-color:#666;
+	color:#fff;
+
+	border-right:5px gray solid;
+	border-left:5px gray solid;
+	border-top:5px gray solid;
+	border-bottom:5px orange solid;
+	border-width:3px;
+	border-bottom-width:10px;
+	border-top-style:dotted;
+	
+
+	border: 5px gray solid;
+
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right: :20px;
+	padding-left:20px;
+
+	/* Same as above */
+	padding:20px;
+
+	margin-top:20px;
+	margin:20px 0;
+}
+.box-3 h2{
+	font-family:tahoma;
+	font-weight:800;
+	font-style:italic;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing: 0.2em;
+	
+}
+.click-3{
+	color: red;
+}
+
+
+
+
+
